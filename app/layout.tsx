@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body className={[inter.className, " min-h-screen mx-auto flex flex-col"].join(" ")}>
+            <body className={[inter.className, " min-h-screen"].join(" ")}>
                 {children}
             </body>
         </html>

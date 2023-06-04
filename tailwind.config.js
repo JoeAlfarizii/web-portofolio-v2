@@ -13,7 +13,14 @@ module.exports = {
             lg: '976px',
             xl: '1440px',
           },
-        extend: {},
+        extend: {
+            keyframes: {
+                spinbackward: {
+                    from: { transform: 'rotate(360deg)' },
+                    to: { transform: 'rotate(0deg)' },
+                }
+            }
+        },
     },
     plugins: [],
 };
