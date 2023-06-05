@@ -1,36 +1,41 @@
 "use client";
 import Image from 'next/image';
 import joeImage from '../assets/joe.png';
+import { PlayCircleIcon } from "@heroicons/react/20/solid";
 
 export default function Home() {
     return (
         <main className="w-full">
-            <article className="h-[120vh] flex flex-col md:flex-row w-full relative overflow-hidden">
-                <header className="w-full -mt-[20vh] flex flex-wrap flex-col justify-center items-center text-white bg-gradient-to-b from-black to-gray-700">
-                    <h1 className="text-4xl font-bold sm:text-3xl uppercase">
+            <article className="h-[120vh] flex flex-col md:flex-row w-full relative overflow-hidden bg-gradient-to-b from-black to-gray-700">
+                <header className="w-full mt-[40vh] md:-mt-[20vh] flex flex-wrap flex-col justify-center items-center text-white z-[1]">
+                    <h1 className="text-2xl font-bold text-center md:text-3xl uppercase">
                         Muhammad Hasan Johan Alfarizi
                     </h1>
                     <span className="w-1/4 h-1.5 bg-white my-6"></span>
-                    <h2 className="text-2xl uppercase">Fullstack Developer</h2>
+                    <h2 className="text-xl md:text-2xl uppercase">Fullstack Developer</h2>
+                    <button className="rounded-full flex justify-center items-center w-36 h-10 md:w-44 md:h-12 ring-4 ring-white mt-10 uppercase">
+                        <PlayCircleIcon className="w-8 h-8 pr-3" />
+                        About Me
+                    </button>
                 </header>
-                <section className="w-[73rem] h-[73rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
+                <section className="w-[55rem] h-[55rem] md:w-[73rem] md:h-[73rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
                     <section className="w-full h-full border-solid border-[12px] border-white border-b-transparent rounded-full animate-[spin_6s_linear_infinite]">
                     </section>
                 </section>
-                <section className="w-[76rem] h-[76rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
+                <section className="w-[52rem] h-[52rem] md:w-[76rem] md:h-[76rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
                     <section className="w-full h-full border-solid border-[12px] border-white border-t-transparent rounded-full animate-[spinbackward_6s_linear_infinite]">
                     </section>
                 </section>
 
-                <section className="w-[56rem] h-[56rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
+                <section className="w-[46rem] h-[46rem] md:w-[56rem] md:h-[56rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
                     <section className="w-full h-full border-solid border-[12px] border-white border-b-transparent rounded-full animate-[spin_6s_linear_infinite]">
                     </section>
                 </section>
-                <section className="w-[53rem] h-[53rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
-                    <section className="w-full h-full border-solid border-[12px] border-white border-t-transparent rounded-full animate-[spin_8s_linear_infinite]">
+                <section className="w-[43rem] h-[43rem] md:w-[53rem] md:h-[53rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
+                    <section className="w-full h-full border-solid border-[12px] border-white border-x-transparent rounded-full animate-[spin_8s_linear_infinite]">
                     </section>
                 </section>
-                <section className="w-[50rem] h-[50rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
+                <section className="w-[40rem] h-[40rem] md:w-[50rem] md:h-[50rem] absolute left-1/2 -translate-x-1/2 -translate-y-1/2 mt-[50vh] rounded-full">
                     <section className="w-full h-full border-solid border-[12px] border-white border-r-transparent pt-[25vh] rounded-full animate-[spinbackward_6s_linear_infinite]">
                     </section>
                 </section>
