@@ -41,18 +41,74 @@ export default function Home() {
                     </section>
                 </section>
             </article>
-            <article className="w-full h-[40rem] text-gray-300 bg-gradient-to-b from-gray-700 to-gray-600">
+            {/* Main Article */}
+            <article className="w-full h-full flex flex-col text-gray-300 bg-gradient-to-b from-gray-700 to-gray-600">
                 <section className="mx-6 md:pt-24 md:mx-24 lg:mx-32">
                     <h2 className="text-xl font-bold text-gray-200 mb-4">About Me</h2>
                     <p className="text-md">Hi! 👋 I'm Hasan. Bachelor of Informatics Engineering from Brawijaya University with an interest in Software Engineering. Assist in completing solutions in the development of E-Commerce platforms on the Front-End and Back-End roles. I am an adaptive individual, learn quickly, and solve problems with solutions</p>
                 </section>
                 <section className="mx-6 md:pt-24 md:mx-24 lg:mx-32 pt-12">
                     <p className="text-xl font-bold text-gray-200 mb-4">Experience</p>
-                    <section>
-
+                    <section className="flex">
+                        <section className="justify-end pr-0 lg:pr-12 hidden md:flex">
+                            <p className="w-[150px] lg:w-[192px] font-bold">Nov 2021 - May 2022</p>
+                        </section>
+                        <section className="flex flex-col pt-1 pl-6">
+                            <span className="relative flex h-4 w-4">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-100 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-4 w-4 bg-gray-200 border-4 border-solid border-gray-600 outline outline-1 outline-gray-200"></span>
+                            </span>
+                            <span className="flex justify-center h-full">
+                                <span className="relative w-[2px] h-full bg-gray-200"></span>
+                            </span>
+                        </section>
+                        <section className="flex pl-5 lg:pl-12 pb-10 flex-col">
+                            <p className="font-bold pb-2">PT Koneksi Niaga Solusindo</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        </section>
+                    </section>
+                    <section className="flex">
+                        <section className="justify-end pr-0 lg:pr-12 hidden md:flex">
+                            <p className="w-[150px] lg:w-[192px] font-bold">Nov 2021 - May 2022</p>
+                        </section>
+                        <section className="flex flex-col pt-1 pl-6">
+                            <span className="relative flex h-4 w-4">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-100 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-4 w-4 bg-gray-200 border-4 border-solid border-gray-600 outline outline-1 outline-gray-200"></span>
+                            </span>
+                            <span className="flex justify-center h-full">
+                                <span className="relative w-[2px] h-full bg-gray-200"></span>
+                            </span>
+                        </section>
+                        <section className="flex pl-5 lg:pl-12 pb-10 flex-col">
+                            <p className="font-bold pb-2">PT Koneksi Niaga Solusindo</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        </section>
+                    </section>
+                    <section className="flex">
+                        <section className="justify-end pr-0 lg:pr-12 hidden md:flex">
+                            <p className="w-[150px] lg:w-[192px] font-bold">Nov 2021 - May 2022</p>
+                        </section>
+                        <section className="flex flex-col pt-1 pl-6">
+                            <span className="relative flex h-4 w-4">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-100 opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-4 w-4 bg-gray-200 border-4 border-solid border-gray-600 outline outline-1 outline-gray-200"></span>
+                            </span>
+                            <span className="flex justify-center h-full">
+                                <span className="relative w-[2px] h-full bg-gray-200"></span>
+                            </span>
+                        </section>
+                        <section className="flex pl-5 lg:pl-12 pb-10 flex-col">
+                            <p className="font-bold pb-2">PT Koneksi Niaga Solusindo</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        </section>
                     </section>
                 </section>
+                <section className="mx-6 md:pt-24 md:mx-24 lg:mx-32">
+                    <p className="text-xl font-bold text-gray-200 mb-4">Projects</p>
+                </section>
             </article>
+            {/* End of Main Article */}
             <article className="fixed h-[280px] bottom-0 left-0 z-50 hidden md:block">
                 <section className="flex flex-col gap-6 justify-center w-10 md:w-28 h-full items-center text-white">
                     <Link href="/" className='hover:-translate-y-1.5 transition duration-300 ease-in-out' target="_blank">
